@@ -1,5 +1,5 @@
 {
-    "name": "danilo/sms-hablame",
+    "name": "danilogrisalez/sms-hablame",
     "description": "Paquete personalizado para enviar mensajes por medio de las nuevas versiones de la api Hablame sms",
     "type": "library",
     "autoload": {
