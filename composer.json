@@ -1,0 +1,19 @@
+{
+    "name": "danilo/sms-hablame",
+    "description": "Paquete personalizado para enviar mensajes por medio de las nuevas versiones de la api Hablame sms",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Danilo\\SmsHablame\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danilo Grisalez",
+            "email": "mdgrisalez@misena.edu.co"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "require": {}
+}
