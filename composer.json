@@ -13,7 +13,23 @@
             "email": "mdgrisalez@misena.edu.co"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Danilo\\SmsHablame\\SmsHablameServiceProvider"
+            ],
+            "aliases": {
+                "SmsHablame": "Danilo\\SmsHablame\\SmsHablameFacade"
+            }
+        }
+    },
 
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ]
+    },
     "minimum-stability": "dev",
     "require": {}
 }
