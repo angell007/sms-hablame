@@ -16,9 +16,9 @@ class SmsHablameServiceProvider extends ServiceProvider
     public function register()
     {
 
-        App::bind('hablame', function () {
+        App::bind('sms-hablame', function () {
             return new Hablame(
-                Config::get('services.sms-hablame.client'),
+                Config::get('services.sms-hablame.cliente'),
                 Config::get('services.sms-hablame.api'),
                 Config::get('services.sms-hablame.token'),
             );

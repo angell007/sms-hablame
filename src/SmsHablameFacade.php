@@ -5,7 +5,7 @@ namespace Danilo\SmsHablame;
 use Illuminate\Support\Facades\Facade as BaseFacade;
 
 
-class SmsHablame extends BaseFacade
+class SmsHablameFacade extends BaseFacade
 {
     /**
      * Get the registered name of the component.
@@ -14,6 +14,6 @@ class SmsHablame extends BaseFacade
      */
     protected static function getFacadeAccessor()
     {
-        return 'hablame';
+        return 'sms-hablame';
     }
 }
